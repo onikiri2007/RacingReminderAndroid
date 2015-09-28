@@ -1,0 +1,111 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/_primary</item>
+        <item name="colorPrimaryDark">@color/_primary_dark</item>
+        <item name="colorAccent">@color/_accent</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:editTextColor">@color/_primary_text</item>
+        <item name="android:textColorHint">@color/_place_holder_text</item>
+        <item name="android:textColor">@color/_primary_text</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="colorControlActivated">@color/_accent</item>
+        <item name="colorControlNormal">@color/_control_normal</item>
+        <item name="android:textViewStyle">@style/TextViewPrimary</item>
+        <item name="android:spinnerDropDownItemStyle">@style/FormTextFieldWithDropDownSpinner</item>
+    </style>
+
+    <style name="FullAppButton">
+        <item name="android:padding">@dimen/btn_text_padding_medium</item>
+        <item name="android:textColor">@color/_text_color</item>
+    </style>
+
+    <style name="FormTextFieldWithDropDownSpinner" parent="android:Widget.DropDownItem.Spinner">
+        <item name="android:textSize">@dimen/primary_text_size</item>
+        <item name="android:checkMark">?android:attr/listChoiceIndicatorSingle</item>
+    </style>
+
+    <style name="FormTextView" parent="TextViewPrimary">
+    </style>
+
+    <style name="CheckBoxAppTheme" parent="android:Widget.Holo.Light.CompoundButton.CheckBox">
+        <item name="android:button">@color/_accent</item>
+    </style>
+
+    <style name="TextViewPrimary" parent="android:Widget.TextView">
+        <item name="android:textAppearance">@style/TextAppearance.Medium</item>
+        <item name="android:textSize">@dimen/primary_text_size</item>
+        <item name="android:textColor">@color/_primary_text</item>
+    </style>
+
+    <style name="TextViewSecondary" parent="TextViewPrimary">
+        <item name="android:textAppearance">@style/TextAppearance.Small</item>
+        <item name="android:textSize">@dimen/secondary_text_size</item>
+        <item name="android:textColor">@color/_secondary_text</item>
+    </style>
+
+    <style name="TextViewHeading" parent="TextViewPrimary">
+        <item name="android:textAppearance">@style/TextAppearance.Large</item>
+        <item name="android:textSize">@dimen/heading_text_size</item>
+    </style>
+
+    <style name="TextViewBoldHeading" parent="TextViewPrimary">
+        <item name="android:textSize">@dimen/heading_text_size</item>
+    </style>
+
+    <style name="TextViewLabelHeading" parent="TextViewPrimary">
+        <item name="android:textAppearance">@style/TextAppearance.Large</item>
+    </style>
+
+    <style name="TextViewHelpText" parent="TextViewPrimary">
+        <item name="android:textSize">@dimen/help_text_size</item>
+        <item name="android:textAppearance">@style/TextAppearance.Small</item>
+        <item name="android:textColor">@color/_secondary_text</item>
+    </style>
+
+    <style name="Container">
+        <item name="android:padding">@dimen/activity_padding</item>
+    </style>
+
+    <style name="TextViewLink" parent="TextViewPrimary">
+        <item name="android:textSize">@dimen/secondary_text_size</item>
+        <item name="android:textColor">@drawable/textview_link_state_background</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="UnderLine" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@color/_control_normal</item>
+        <item name="android:layout_marginLeft">@dimen/gutter_margin</item>
+        <item name="android:layout_marginRight">@dimen/gutter_margin</item>
+    </style>
+
+    <style name="primary_full_size_button" parent="FullAppButton">
+        <item name="android:background">@drawable/primary_button_state_background</item>
+        <item name="android:textAppearance">@style/TextAppearance.Medium</item>
+    </style>
+
+    <style name="TextViewHeadingExtraLarge"  parent="TextViewPrimary">
+        <item name="android:textSize">@dimen/heading_extra_large_text_size</item>
+    </style>
+
+    <style name="TextViewHeadingLarge"  parent="TextViewPrimary">
+        <item name="android:textSize">@dimen/heading_large_text_size</item>
+    </style>
+
+    <style name="TextAppearance.Small" parent="android:TextAppearance.Small">
+    </style>
+
+    <style name="TextAppearance.Medium" parent="android:TextAppearance.Medium">
+    </style>
+
+    <style name="TextAppearance.Large" parent="android:TextAppearance.Large">
+    </style>
+
+    <style name="loadingIndicatorStyle">
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">90dp</item>
+    </style>
+</resources>

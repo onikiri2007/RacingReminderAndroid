@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="_primary">#14b1e6</color>
+    <color name="_primary_dark">#129ecc</color>
+    <color name="_primary_light">#1bbcf2</color>
+    <color name="_accent">@color/_primary</color>
+    <color name="_primary_text">#212121</color>
+    <color name="_secondary_text">#727272</color>
+    <color name="_divider">#B6B6B6</color>
+    <color name="_primary_button">@color/_primary</color>
+    <color name="_primary_button_pressed">#22b5e5</color>
+    <color name="_third_button">#01d5e1</color>
+    <color name="_third_button_pressed">#CB01D5E1</color>
+    <color name="_selection">#FFE33D</color>
+    <color name="_icons">#FFFFFF</color>
+    <color name="_text_color">#ffffff</color>
+    <color name="_disabled">#74E3E3E3</color>
+    <color name="_text_color_disabled">#934C4C4C</color>
+    <color name="_loading_overlay">#3A000000</color>
+    <color name="_loading">#AAB3B3B3</color>
+    <color name="_form_background_primary">@android:color/white</color>
+    <color name="_form_background_primary_dark">#eeeeee</color>
+    <color name="_retry_overlay">#b22b2b2b</color>
+    <color name="_cell_background">#eeeeee</color>
+    <color name="_control_normal">#FF777777</color>
+    <color name="_card_selection">#16000000</color>
+    <color name="_place_holder_text">#c5c5c5</color>
+    <color name="_landing_note_background">#dcffffff</color>
+    <color name="_snackbar_background">#c8000000</color>
+    <color name="_tab_color">#c9c9ce</color>
+</resources>
